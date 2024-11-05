@@ -15,7 +15,7 @@ Installation
 Clone the Repository:
 
 Bash
-git clone https://github.com/niks2801/online-library-management-system.git
+git clone https://github.com/niks2801/Library-Management-System.git
 
 
 Set Up Environment:
