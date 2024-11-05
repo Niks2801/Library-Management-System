@@ -56,6 +56,32 @@ Report Generation:
 Generate various reports, such as book circulation, member activity, and overdue fines.
 Contributing
 
+## Technologies Used
+- Java 1.8
+- MySQL
+- JDBC
+- Maven
+
+## Installation
+
+### Prerequisites
+- JDK 1.8 or higher
+- MySQL server
+- Maven
+
+Build the project using Maven:
+bash
+
+mvn clean install
+
+Run the application:
+bash
+
+java -cp target/library-management-system-1.0-SNAPSHOT.jar com.yourpackage.main.Main
+
+
+
+
 We welcome contributions to this project! To contribute:
 
 
