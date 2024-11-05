@@ -46,6 +46,49 @@ The Library Management System is a Java-based application designed to manage boo
 
 
 
+<div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+The Library Management System is a Java-based application designed to manage books, members, and loans in a library. The application provides an interface for users to perform various operations such as adding, updating, deleting, and retrieving books and members, as well as managing loan transactions.
+</div>
+
+## Features
+<ul>
+    <li>Add, update, and delete books</li>
+    <li>Add, update, and delete library members</li>
+    <li>Manage loans between books and members</li>
+    <li>Retrieve lists of books, members, and loans</li>
+    <li>Database connectivity using MySQL</li>
+    <li>Built using Java with a structured DAO and Service architecture</li>
+</ul>
+
+## Technologies Used
+<table>
+    <tr>
+        <th>Technology</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Java 1.8</td>
+        <td>The programming language used for development.</td>
+    </tr>
+    <tr>
+        <td>MySQL</td>
+        <td>The database management system used for data storage.</td>
+    </tr>
+    <tr>
+        <td>JDBC</td>
+        <td>Java Database Connectivity for connecting Java applications to the database.</td>
+    </tr>
+    <tr>
+        <td>Maven</td>
+        <td>Build automation tool used for dependency management.</td>
+    </tr>
+</table>
+
+
+
+
+
+
 
 
 
