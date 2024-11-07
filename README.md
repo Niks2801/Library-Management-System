@@ -80,6 +80,8 @@ Library-Management-System/
 │   └── (external libraries, if any)
 ├── 
 
-### <span style="color: blue;">Clone the Repository:</span>
+
+
 ```bash
-git clone https://github.com/niks2801/Library-Management-System.git
+git clone:
+ https://github.com/niks2801/Library-Management-System.git
