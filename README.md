@@ -39,6 +39,71 @@ The Library Management System is a Java-based application designed to manage boo
     </tr>
 </table>
 
+
+
+# <span style="color: blue;">Library Management System</span>
+
+## <span style="color: blue;">Description</span>
+<div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+The Library Management System is a Java-based application designed to manage books, members, and loans in a library. The application provides an interface for users to perform various operations such as adding, updating, deleting, and retrieving books and members, as well as managing loan transactions.
+</div>
+
+## <span style="color: blue;">Project Structure</span>
+The project follows a structured layout for better organization and maintainability:
+
+```plaintext
+Library-Management-System/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           ├── dao/
+│   │   │           │   ├── BookDAO.java
+│   │   │           │   ├── MemberDAO.java
+│   │   │           │   └── LoanDAO.java
+│   │   │           ├── model/
+│   │   │           │   ├── Book.java
+│   │   │           │   ├── Member.java
+│   │   │           │   └── Loan.java
+│   │   │           ├── service/
+│   │   │           │   ├── BookService.java
+│   │   │           │   ├── MemberService.java
+│   │   │           │   └── LoanService.java
+│   │   │           └── main/
+│   │   │               └── Main.java
+│   │   └── resources/
+│   │       ├── database-config.properties
+│   │       └── sql/
+│   │           └── schema.sql
+├── lib/
+│   └── (external libraries, if any)
+├── pom.xml
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## <span style="color: blue;">Overview</span>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
 This is a robust library management system designed to streamline library operations and enhance user experience. Key features include:
