@@ -78,46 +78,7 @@ Library-Management-System/
 │   │           └── schema.sql
 ├── lib/
 │   └── (external libraries, if any)
-├── pom.xml
-└── README.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## <span style="color: blue;">Overview</span>
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
-This is a robust library management system designed to streamline library operations and enhance user experience. Key features include:
-<ul>
-    <li><strong>Book Management:</strong> Add, edit, and remove books from the library catalog.</li>
-    <li><strong>Member Management:</strong> Add, edit, and remove members.</li>
-    <li><strong>Book Issuance and Return:</strong> Manage book borrowing and returning processes.</li>
-    <li><strong>Overdue Fine Calculation:</strong> Calculate and track fines for overdue books.</li>
-    <li><strong>Report Generation:</strong> Generate various reports on book circulation, member activity, and more.</li>
-    <li><strong>User-Friendly Interface:</strong> Intuitive web-based interface for easy interaction.</li>
-</ul>
-</div>
-
-## <span style="color: blue;">Installation</span>
+├── 
 
 ### <span style="color: blue;">Clone the Repository:</span>
 ```bash
