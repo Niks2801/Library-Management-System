@@ -1,4 +1,8 @@
 # <span style="color: blue;">Library Management System</span>
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+
 
 ## <span style="color: blue;">Description</span>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
