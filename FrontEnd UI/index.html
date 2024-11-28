@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="animated-circles"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="Book.html">Manage Books</a></li>
+            <li><a href="member.html">Manage Members</a></li>
+            <li><a href="loans.html">Manage Loans</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Welcome Section -->
+        <h2>Welcome to the Library Management System</h2>
+        <p>
+            Explore an advanced and intuitive system for efficiently managing library resources. 
+            This platform provides tools to maintain records of books, members, and loan transactions seamlessly.
+        </p>
+
+        <!-- Description Section -->
+        <section class="description">
+            <h3>About the Project</h3>
+            <p>
+                The <strong>Library Management System</strong> is a Java-based application aimed at streamlining 
+                library operations. Designed with simplicity and efficiency in mind, this project enables users to:
+            </p>
+            <ul>
+                <li>Maintain a catalog of books with detailed records.</li>
+                <li>Track library members and their borrowing activity.</li>
+                <li>Manage loans, returns, and overdue calculations.</li>
+                <li>Generate reports for enhanced decision-making.</li>
+            </ul>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h3>Features</h3>
+            <p>Our system is packed with robust features, including:</p>
+            <ul>
+                <li>Efficient book and member management.</li>
+                <li>Seamless loan issuance and tracking.</li>
+                <li>Interactive and user-friendly interface.</li>
+                <li>Data security and accurate record maintenance.</li>
+            </ul>
+        </section>
+
+        <!-- Login Section -->
+        <section class="login-section">
+            <h3>Login</h3>
+            <p>Select your role to login:</p>
+            <div class="login-buttons">
+                <button class="btn" onclick="showLogin('User')">User Login</button>
+                <button class="btn" onclick="showLogin('Admin')">Admin Login</button>
+            </div>
+
+            <div id="login-form" class="login-form hidden">
+                <h3 id="login-role"></h3>
+                <form onsubmit="handleLogin(event)">
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+                <button class="btn secondary" onclick="hideLogin()">Cancel</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Library Management System | Designed for smarter libraries.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
