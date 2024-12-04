@@ -38,7 +38,7 @@
   <section>
     <h2>How to Use</h2>
     <ol>
-      <li><strong>Clone the Repository:</strong> <span class="code">git clone https://github.com/your-repository/library-management-system.git</span></li>
+      
       <li><strong>Open the Project:</strong> Open the project folder in any text editor (e.g., VS Code).</li>
       <li><strong>Launch the Application:</strong> Open <code>index.html</code> in any modern browser to view the interface.</li>
       <li><strong>Interact with Features:</strong>
